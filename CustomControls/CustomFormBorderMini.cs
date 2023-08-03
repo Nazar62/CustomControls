@@ -131,7 +131,7 @@ namespace Arduino
             startX = this.ClientSize.Width - buttonsWidth;
 
             buttonPanel = new Panel();
-            buttonPanel.Width = buttonsWidth + 15;
+            buttonPanel.Width = buttonsWidth;
             buttonPanel.Dock = DockStyle.Right;
             //buttonPanel.Location = new Point(startX, 0); 
             panel.Controls.Add(buttonPanel);
