@@ -1,0 +1,5 @@
+D:\vs\projects\CustomControls\CustomControls\bin\Release\CustomControls.dll
+D:\vs\projects\CustomControls\CustomControls\bin\Release\CustomControls.pdb
+D:\vs\projects\CustomControls\CustomControls\obj\Release\CustomControls.csproj.CoreCompileInputs.cache
+D:\vs\projects\CustomControls\CustomControls\obj\Release\CustomControls.dll
+D:\vs\projects\CustomControls\CustomControls\obj\Release\CustomControls.pdb
