@@ -25,6 +25,23 @@ namespace CustomControls
         Color panelColor = Color.DimGray;
         Color buttonCollor = Color.DimGray;
         Color iconColor = Color.Black;
+        bool setFormWidth = false;
+
+        [Category("Custom")]
+        public new bool SetFormWidth
+        {
+            get { return setFormWidth; }
+            set
+            {
+                setFormWidth = value;
+                if (setFormWidth == true)
+                {
+                    Form form = Application.OpenForms[formName];
+                    this.Width = form.Width;
+                    setFormWidth = false;
+                }
+            }
+        }
 
         [Category("Custom")]
         public string FormName { 
